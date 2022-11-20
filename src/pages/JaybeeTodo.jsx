@@ -23,7 +23,7 @@ const JaybeeTodo = () => {
           </div>
           
           <div className="profile-text">
-            <p>Joseph Anderson</p>
+            <p className="username">Joseph Anderson</p>
             <p>You are using Ticked for free</p>
           </div>
         </div>
