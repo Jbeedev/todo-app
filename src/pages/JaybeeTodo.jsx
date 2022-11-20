@@ -78,14 +78,6 @@ const JaybeeTodo = () => {
           <div className="profile-form ">
             <div className="single-form">
               <label htmlFor="" className="">
-                Phone Number
-              </label>
-              <input className="" type="text" placeholder="+2348055667788" />
-            </div>
-          </div>
-          <div className="profile-form ">
-            <div className="single-form">
-              <label htmlFor="" className="">
                 Password
               </label>
               <input
@@ -101,6 +93,15 @@ const JaybeeTodo = () => {
               <input className="" type="text" placeholder="confirm password" />
             </div>
           </div>
+          <div className="profile-form ">
+            <div className="single-form">
+              <label htmlFor="" className="">
+                Phone Number
+              </label>
+              <input className="" type="text" placeholder="+2348055667788" />
+            </div>
+          </div>
+          
           <button  className=" form-button ">Save changes</button>
 
           <div className="profile-form">
